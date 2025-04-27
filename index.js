@@ -11,10 +11,10 @@ if (credentialsB64) {
 const credentials = require('./credentials.json');
 
 // 各種設定
-const SPREADSHEET_ID = '1HixtxBa4Zph88RZSY0ffh8XXB0sVlSCuDI8MWnq_6f8';
+const SPREADSHEET_ID = '11ciYcCRxsnwS6u4pJaBgLiwwI6rwErGInaeIzoGHbQ0';
 const MASTER_SHEET = 'list';
 const LOG_SHEET = 'ログ';
-const TARGET_CHANNEL_ID = '1365277821743927296'; // 書き込むチャンネルID
+const TARGET_CHANNEL_ID = '1365926372366880830'; // 書き込むチャンネルID
 const pendingUsers = new Map();
 
 // Google Sheets 認証
